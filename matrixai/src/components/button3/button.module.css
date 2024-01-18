@@ -1,0 +1,15 @@
+.button {
+    background-color: #18077F;
+    width: max-content;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.button h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

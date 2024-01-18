@@ -1,0 +1,44 @@
+.container {
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(21, 20, 96, 0.25);
+    padding: 5px 20px;
+}
+
+.logodiv {
+    display: flex;
+    align-items: center;
+}
+
+.logodiv p {
+    color: #2B2579;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.linkdiv {
+    padding: 10px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.linkdiv a {
+    color: #030E2A;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.dp {
+    border-radius: 100px;
+    background-color: #413151;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}

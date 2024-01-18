@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    width: 600px;
+}
+
+.heading {
+    color: #2B2579;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.time {
+    color: #07137F;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.description {
+    margin-top: 10px;
+    color: #07137F;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}

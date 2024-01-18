@@ -1,0 +1,48 @@
+.containerchecked{
+    width: 600px;
+    height: 110px;
+    background-color: #07137F;
+    color: #FFFFFF;
+    display: flex;
+    border-radius: 3px;
+    box-shadow: 0px 4px 4px #07137F;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: space-between;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.containerunchecked{
+    width: 600px;
+    height: 110px;
+    background-color: #F7F7F7;
+    color: #111111;
+    display: flex;
+    border-radius: 3px;
+    box-shadow: 0px 4px 4px #07137F;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: space-between;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.textheading{
+    font-size: 24px;
+    font-weight: 700;
+}
+.textnormal{
+    font-size: 16px;
+    font-weight: 600;
+}
+.avatar{
+    background-color: #D9D9D9;
+    border-radius: 100px;
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+}
+.avatar img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
