@@ -1,16 +1,17 @@
 import React from "react";
 
-export const CardC = ({ icon, title }) => {
+export const CardC = ({ icon, title, onClick }) => {
   console.log(title);
   return (
     <div
+      onClick={onClick}
       className="flex align-center justify-center items-center"
       style={{
         borderWidth: "0px 1px 1px 1px",
         borderColor: "#07137F",
         boxShadow: "0px 3px 3px",
         borderBottomRightRadius: "1rem",
-        borderBottomLeftRadius: "1rem",
+        borderBottomLeftRadius: "1rem",        
       }}
     >
       <p
