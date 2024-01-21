@@ -21,10 +21,6 @@ import OpenAI from "openai";
 
 export const Companies = () => {
   const fileInputRef = useRef(null);
-  const apiKey = "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";
-  const modelId = "asst_SsJNI0SR9DNQpPkSW0UrJICh";
-  
-
   const handleFileUpload = async (file) => {
     try {
       const formData = new FormData();
