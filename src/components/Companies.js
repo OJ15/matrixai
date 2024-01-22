@@ -94,11 +94,9 @@ export const Companies = () => {
       <div
         className="flex flex-col gap-3 p-6"
         style={{
-          borderWidth: "0px 1px 1px 1px",
+          borderWidth: "1px 1px 1px 1px",
           borderColor: "#07137F",
-          boxShadow: "0px 4px 4px",
-          borderBottomRightRadius: "1rem",
-          borderBottomLeftRadius: "1rem",
+          borderRadius: "1rem",
         }}
       >
         <h1
@@ -127,11 +125,9 @@ export const Companies = () => {
       <div
         className="flex flex-col gap-3 p-6"
         style={{
-          borderWidth: "0px 1px 1px 1px",
+          borderWidth: "1px 1px 1px 1px",
           borderColor: "#07137F",
-          boxShadow: "0px 4px 4px",
-          borderBottomRightRadius: "1rem",
-          borderBottomLeftRadius: "1rem",
+          borderRadius: "1rem",
         }}
       >
         <h1
@@ -160,11 +156,9 @@ export const Companies = () => {
       <div
         className="flex flex-col gap-3 p-6"
         style={{
-          borderWidth: "0px 1px 1px 1px",
+          borderWidth: "1px 1px 1px 1px",
           borderColor: "#07137F",
-          boxShadow: "0px 4px 4px",
-          borderBottomRightRadius: "1rem",
-          borderBottomLeftRadius: "1rem",
+          borderRadius: "1rem",
         }}
       >
         <h1

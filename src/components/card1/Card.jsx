@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './card.module.css';
 import { GrpAvatar, GreenCheck, Unchecked } from '../../asset/svg';
+import { check } from '../../asset/svg';
 
 const Card = ({ select, data, setSelected, index }) => {
     const { heading, text } = data;

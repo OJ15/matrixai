@@ -11,7 +11,7 @@ const Home = () => {
   const [selected, setSelected] = useState(0);
 
   return (
-    <div style={{ padding: "50px", width: "100%" }}>
+    <div style={{ padding: "50px", width: "100%", backgroundColor: "#ffff" }}>
       <div style={{ display: "flex", marginBottom: "40px", gap: "20px" }}>
         <Button />
         <Button2 />

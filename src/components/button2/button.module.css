@@ -1,7 +1,8 @@
 .button {
     border-radius: 5px;
     background: #F7F7F7;
-    box-shadow: 0px 1px 4px 0px #662AC6;
+    border: 1px solid #646dc3;
+    box-shadow: 0px 1px 4px 0px #7c49ce;
     display: flex;
     align-items: center;
     padding-left: 27px;
@@ -13,9 +14,13 @@
 
 .button h2 {
     color: #662AC6;
-    font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.button:hover {
+    background-color: #ffffff; /* Change background color on hover */
+    color: #F7F7F7; /* Change text color on hover */
 }

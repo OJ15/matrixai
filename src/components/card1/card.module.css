@@ -1,11 +1,11 @@
 .containerchecked{
     width: 600px;
     height: 110px;
-    background-color: #07137F;
+    background: linear-gradient(to right, #6393d1, #4052b8);
     color: #FFFFFF;
     display: flex;
     border-radius: 3px;
-    box-shadow: 0px 4px 4px #07137F;
+    box-shadow: 0px 4px 4px #565d99;
     align-items: center;
     padding: 0 10px;
     justify-content: space-between;
@@ -16,10 +16,10 @@
     width: 600px;
     height: 110px;
     background-color: #F7F7F7;
-    color: #111111;
+    color: #2e2f6881;
     display: flex;
     border-radius: 3px;
-    box-shadow: 0px 4px 4px #07137F;
+    box-shadow: 0px 4px 4px #b5b7cf;
     align-items: center;
     padding: 0 10px;
     justify-content: space-between;
@@ -35,11 +35,12 @@
     font-weight: 600;
 }
 .avatar{
-    background-color: #D9D9D9;
+    background-color: #ffffff;
     border-radius: 100px;
-    padding: 5px;
-    width: 60px;
-    height: 60px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    color: #4052b8;
 }
 .avatar img{
     width: 100%;
